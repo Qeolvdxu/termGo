@@ -1,0 +1,12 @@
+* This Program uses the textbaduk2 library : https://github.com/Qeolvdxu/textbaduk2 *
+* you must place the "textbaduk2" directory in the root of this project to run it   *
+
+
+src/testBoard.cpp is a basic standard 18x18 board to play and test the headers
+
+testBoard.cpp includes an example of the minimum functions required to run a standard game:
+  to create a board using the Board variable type and specifiying the size as the initialization input
+  A main game loop which does the following:
+    collect input and calls the placeStone() function, supplying it with the input
+    a checkCap() function call to check if any stones need to be captured
+    and a changePlayer() function to rotate the player pool
