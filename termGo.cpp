@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../include/Board.hpp"
+#include "./textbaduk2/include/Board.hpp"
 
 using namespace std;
 

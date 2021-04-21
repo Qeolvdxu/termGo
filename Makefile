@@ -5,7 +5,7 @@ SOURCE_FILES = ./termGo.cpp ${SOURCE_PATH}/Stone.cpp ${SOURCE_PATH}/Board.cpp ${
 
 HEADER_FILES = 	${HEADER_PATH}/Stone.hpp ${HEADER_PATH}/Board.hpp
 
-OUT	= test
+OUT	= termGo
 CC	 = g++
 FLAGS	 = -g -c -Wall
 LFLAGS	 = 
