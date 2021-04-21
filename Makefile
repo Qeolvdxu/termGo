@@ -1,7 +1,7 @@
 SOURCE_PATH = ./textbaduk2/src
 HEADER_PATH = ./textbaduk2/include
 
-SOURCE_FILES = ./testBoard.cpp ${SOURCE_PATH}/Stone.cpp ${SOURCE_PATH}/Board.cpp ${SOURCE_PATH}/BoardGUI.cpp
+SOURCE_FILES = ./termGo.cpp ${SOURCE_PATH}/Stone.cpp ${SOURCE_PATH}/Board.cpp ${SOURCE_PATH}/BoardGUI.cpp
 
 HEADER_FILES = 	${HEADER_PATH}/Stone.hpp ${HEADER_PATH}/Board.hpp
 
