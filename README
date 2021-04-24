@@ -1,7 +1,4 @@
 * This Program uses the textbaduk2 library : https://github.com/Qeolvdxu/textbaduk2 *
-* you must place the "textbaduk2" directory in the root of this project to run it   *
-* you can also run the included script to pull the project from github *
-
 
 src/testBoard.cpp is a basic standard 18x18 board to play and test the headers
 

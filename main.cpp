@@ -1,12 +1,13 @@
 #include <iostream>
 
-#include "./textbaduk2/include/Board.hpp"
+#include <textbaduk2.h> 
+#include "BoardGUI.cpp"
 
 using namespace std;
 
 int main(void)
 {
-	Board* testBoard = new Board(18);
+	PBoard* testBoard = new PBoard(18);
 	int row, column;
 	bool running = true;
 	bool safe = false;
